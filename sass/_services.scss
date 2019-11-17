@@ -1,0 +1,16 @@
+.services {
+    background: $black;
+    .row {
+        margin: 0 230px;
+        .borderRight {
+            border-right: 2px solid $grey;
+        }
+        .col {
+            border-left: 2px solid $grey;
+            p {
+                color: $grey2;
+                text-align: center;
+            }
+        }
+    }
+}

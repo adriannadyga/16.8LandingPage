@@ -4,19 +4,31 @@ $black: #000000;
 $beige: #b88b58;
 $nonActive: #373737;
 $grey: #aeaeae;
+$grey2: #7d7d7d;
 
 
 //h1-h6
-h3 {
-    font-weight: 700;
+@mixin font {
     text-transform: uppercase;
     text-align: center;
 }
+h3 {
+    @include font;
+    font-weight: 700;    
+}
+
+h5 {
+    @include font;
+    font-weight: 600;    
+}
 
 h6 {
-    text-transform: uppercase;
-    text-align: center;
+    @include font;
     color: $grey;
+}
+
+.lightText {
+    color: $white;
 }
 
 //button

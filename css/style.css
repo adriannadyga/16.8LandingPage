@@ -1,13 +1,23 @@
 h3 {
-  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
 }
 
 h6 {
   text-transform: uppercase;
   text-align: center;
   color: #aeaeae;
+}
+
+.lightText {
+  color: #ffffff;
 }
 
 button, .activeButton {
@@ -65,6 +75,27 @@ nav .nav-fill .nav-link {
   width: 445px;
   height: 275px;
   background: #aeaeae;
+}
+
+.services {
+  background: #000000;
+}
+
+.services .row {
+  margin: 0 230px;
+}
+
+.services .row .borderRight {
+  border-right: 2px solid #aeaeae;
+}
+
+.services .row .col {
+  border-left: 2px solid #aeaeae;
+}
+
+.services .row .col p {
+  color: #7d7d7d;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
