@@ -9,7 +9,7 @@ $beige: #b88b58;
 $nonActive: #373737;
 $grey: #aeaeae;
 $grey2: #7d7d7d;
-
+$grey3: #ededed;
 
 //h1-h6
 @mixin font {
@@ -29,6 +29,10 @@ h5 {
 h6 {
     @include font;
     color: $grey;
+}
+
+p {
+    margin: 0;
 }
 
 .lightText {
@@ -61,4 +65,11 @@ button {
 .activeButton {
     @extend button;
     background: $beige;
+}
+
+.btn-round {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #bebebe;
 }

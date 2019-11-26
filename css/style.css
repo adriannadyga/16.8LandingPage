@@ -20,6 +20,10 @@ h6 {
   color: #aeaeae;
 }
 
+p {
+  margin: 0;
+}
+
 .lightText {
   color: #ffffff;
 }
@@ -48,6 +52,13 @@ button, .activeButton {
 
 .activeButton {
   background: #b88b58;
+}
+
+.btn-round {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background-color: #bebebe;
 }
 
 nav {
@@ -94,6 +105,10 @@ nav .nav-fill .nav-link {
 .jumbotron .hero-text .number {
   font-size: 18px;
   font-weight: 600;
+}
+
+.about-us .col-7 > p {
+  padding-bottom: 20px;
 }
 
 .services {
@@ -171,7 +186,39 @@ nav .nav-fill .nav-link {
 
 .our-team .row .col .white-box .worker-title {
   text-align: center;
-  padding: 40px;
+  padding: 40px 0 20px;
+}
+
+.our-team .row .col .white-box .btn-round-group {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.happy-clients {
+  background-color: #ededed;
+  text-align: center;
+}
+
+.happy-clients h6 {
+  padding-bottom: 40px;
+}
+
+.happy-clients img {
+  padding: 20px;
+}
+
+.happy-clients .name {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.happy-clients .opinnion {
+  margin-top: 20px;
+}
+
+.happy-clients .opinnion p {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
