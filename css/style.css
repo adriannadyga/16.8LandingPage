@@ -229,4 +229,25 @@ nav .nav-fill .nav-link {
   text-align: center;
 }
 
+.price {
+  background-color: #ededed;
+}
+
+.price .col {
+  padding: 0;
+}
+
+.price .col .white-box {
+  margin-top: 40px;
+  width: 260px;
+  height: 345px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.price .col .white-box h6 {
+  padding-top: 20px;
+  color: #000000;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+.price {
+    background-color: $grey3;
+    .col {
+        padding: 0;
+        .white-box {
+            margin-top: 40px;
+            width: 260px;
+            height: 345px;
+            background-color: $white;
+            border-radius: 5px;
+            h6 {
+                padding-top: 20px;
+                color: $black;
+            }
+        }
+    }
+}
