@@ -1,0 +1,32 @@
+.our-team {
+    background-image: url("https://github.com/adriannadyga/16.8LandingPage/blob/master/images/bg-image-min.png?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    h6 {
+        padding-bottom: 40px;
+    }
+    .row {
+        .col {
+            .white-box {
+                height: 435px;
+                width: 350px;
+                background-color: $white;
+                border-radius: 5px;
+                img {
+                    display: block;
+                    margin: auto;
+                    padding-top: 50px;
+                }
+                .worker-title {
+                    text-align: center;
+                    padding: 40px;
+                }
+            }
+        }
+    }
+}
