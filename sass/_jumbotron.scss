@@ -1,13 +1,27 @@
 .jumbotron {
-    text-align: center;
-    color: $white;
-    font-size: 72px;
-    font-weight: 700;
-    .beige { 
-    color: $beige;
-    }
-    .number {
-        font-size: 18px;
-        font-weight: 600;
+    background-image: url("https://github.com/adriannadyga/16.8LandingPage/blob/master/images/bg_img_01_Easy-Resize.com.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $white;
+        font-size: 72px;
+        font-weight: 700;
+        .beige { 
+        color: $beige;
+        }
+        .number {
+            font-size: 18px;
+            font-weight: 600;
+        }    
     }
 }
